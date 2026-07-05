@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#07080d">
+    <meta
+      name="description"
+      content="Portfolio of Manish, IIT Madras BS Data Science student and aspiring Google AI/ML engineer."
+    >
+    <title>Manish | Spartan AI Portfolio</title>
+    <link rel="preload" href="assets/spartan-theme.jfif" as="image">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <canvas id="matrix-field" aria-hidden="true"></canvas>
+    <div class="gate-scene" aria-hidden="true">
+      <div class="gate-copy">
+        <span>Spartan AI Protocol</span>
+        <strong>Entering Portfolio</strong>
+      </div>
+      <div class="gate-door gate-left">
+        <span></span>
+      </div>
+      <div class="gate-door gate-right">
+        <span></span>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Manish home">
+        <span class="brand-mark">M</span>
+        <span>Manish</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#profile">Profile</a>
+        <a href="#education">Education</a>
+        <a href="#training">Training</a>
+        <a href="#metrics">Metrics</a>
+        <a href="pages/skills.html">Skills</a>
+        <a href="pages/progress.html">Progress</a>
+        <a href="pages/certificates.html">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-media" aria-label="Futuristic Spartan AI visual">
+          <img src="assets/spartan-theme.jfif" alt="Futuristic chrome Spartan warrior with code behind him">
+          <div class="scanline"></div>
+        </div>
+
+        <div class="hero-copy">
+          <p class="kicker">Data Science | Computer Science | Athletic Discipline</p>
+          <h1>Manish</h1>
+          <p class="hero-statement">
+            Aspiring Google AI/ML Engineer building the mindset, math, code, and consistency to turn data into intelligent systems.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="pages/skills.html">Explore Skills</a>
+            <a class="button ghost" href="pages/progress.html">Progress Deck</a>
+            <a class="button ghost" href="https://github.com/ManishSharma45512" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="button ghost" href="https://leetcode.com/u/ManishJangid01/" target="_blank" rel="noreferrer">LeetCode</a>
+          </div>
+        </div>
+
+        <div class="hero-stats" aria-label="Portfolio highlights">
+          <article>
+            <span>151</span>
+            <p>LeetCode questions solved</p>
+          </article>
+          <article>
+            <span>90%</span>
+            <p>Class 10 score</p>
+          </article>
+          <article>
+            <span>80%</span>
+            <p>Class 12 Science PCM</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section studio-band">
+        <div class="studio-shell reveal-panel">
+          <div>
+            <p class="eyebrow">AI Studio Mode</p>
+            <h2>Learning system, not just a resume.</h2>
+            <p class="section-note">
+              This portfolio is designed like a command center: profile, progress, skills, certificates, and next project targets all connect into one career story.
+            </p>
+          </div>
+          <div class="studio-orbit" aria-hidden="true">
+            <span>Python</span>
+            <span>Analytics</span>
+            <span>ML</span>
+            <span>AI</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="metrics" class="section metrics-band">
+        <div class="metrics-layout">
+          <div class="section-heading">
+            <p class="eyebrow">Live Signal</p>
+            <h2>RGB learning graph.</h2>
+            <p class="section-note">
+              A moving visual of the current build phase: coding practice, data science foundation, and AI/ML direction.
+            </p>
+          </div>
+          <div class="graph-panel">
+            <div class="graph-top">
+              <span>R: Discipline</span>
+              <span>G: Analytics</span>
+              <span>B: AI/ML</span>
+              <span>Gold: Interview Readiness</span>
+            </div>
+            <canvas id="rgb-graph" width="920" height="420" aria-label="Animated RGB graph for learning progress"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <section class="section progress-band">
+        <div class="section-heading">
+          <p class="eyebrow">Progress Stack</p>
+          <h2>Current capability map.</h2>
+        </div>
+        <div class="progress-grid">
+          <article class="progress-card reveal-panel" style="--value: 82">
+            <div class="ring"><span>82%</span></div>
+            <h3>Python Foundation</h3>
+            <p>Syntax, functions, data structures, problem solving, and data workflows.</p>
+          </article>
+          <article class="progress-card reveal-panel" style="--value: 76">
+            <div class="ring"><span>76%</span></div>
+            <h3>Data Analytics</h3>
+            <p>Cleaning, exploration, statistics, dashboards, and insight writing.</p>
+          </article>
+          <article class="progress-card reveal-panel" style="--value: 70">
+            <div class="ring"><span>70%</span></div>
+            <h3>Visualization</h3>
+            <p>Charts, storytelling, visual comparison, and readable data design.</p>
+          </article>
+          <article class="progress-card reveal-panel" style="--value: 55">
+            <div class="ring"><span>55%</span></div>
+            <h3>Machine Learning</h3>
+            <p>Model selection, evaluation, feature thinking, and applied project practice.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="profile" class="section profile-band">
+        <div class="section-heading">
+          <p class="eyebrow">Profile</p>
+          <h2>Spartan focus for an AI future.</h2>
+        </div>
+        <div class="profile-grid">
+          <article class="panel intro-panel">
+            <h3>About Me</h3>
+            <p>
+              I am studying BS in Data Science and Applications from IIT Madras, and BSc Physical Education with Computer Science from Deen Dayal Upadhyaya College, University of Delhi. I am a fast learner, a consistent problem solver, and I am preparing myself for a career in AI and machine learning.
+            </p>
+          </article>
+          <article class="panel quote-panel">
+            <p>Current mission</p>
+            <h3>Become a Google AI/ML Engineer.</h3>
+          </article>
+          <article class="panel no-projects">
+            <h3>Present Stage</h3>
+            <p>
+              No internships or formal projects yet. This portfolio presents the foundation honestly, while setting up a clear path toward portfolio-ready AI/ML work.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="education" class="section education-band">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2>Academic stack.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div>
+              <p class="meta">IIT Madras</p>
+              <h3>BS in Data Science and Applications</h3>
+              <p>Focused on programming, data handling, mathematics, statistics, and modern data science foundations.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div>
+              <p class="meta">University of Delhi</p>
+              <h3>BSc Physical Education with Computer Science</h3>
+              <p>Studying at Deen Dayal Upadhyaya College, combining physical discipline with computing fundamentals.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div>
+              <p class="meta">School</p>
+              <h3>Science PCM Foundation</h3>
+              <p>Class 12 Science PCM: 80%. Class 10: 90%.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="training" class="section training-band">
+        <div class="section-heading">
+          <p class="eyebrow">Training</p>
+          <h2>From learner to engineer.</h2>
+        </div>
+        <div class="training-grid">
+          <article class="skill-card">
+            <span>01</span>
+            <h3>Problem Solving</h3>
+            <p>151 LeetCode questions solved, building algorithmic thinking and interview readiness.</p>
+          </article>
+          <article class="skill-card">
+            <span>02</span>
+            <h3>Data Science</h3>
+            <p>Growing through IIT Madras coursework in data, statistics, programming, and analytical thinking.</p>
+          </article>
+          <article class="skill-card">
+            <span>03</span>
+            <h3>AI/ML Direction</h3>
+            <p>Targeting Python, linear algebra, machine learning models, deep learning basics, and applied projects.</p>
+          </article>
+          <article class="skill-card">
+            <span>04</span>
+            <h3>Discipline</h3>
+            <p>Physical education background adds consistency, training mindset, and resilience under pressure.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section mastery-band">
+        <div class="section-heading">
+          <p class="eyebrow">What I Know</p>
+          <h2>Technical direction.</h2>
+        </div>
+        <div class="mastery-grid">
+          <article class="mastery-panel reveal-panel">
+            <h3>Python for Data</h3>
+            <p>Using Python as the core language for analysis, automation, data handling, and future ML workflows.</p>
+          </article>
+          <article class="mastery-panel reveal-panel">
+            <h3>Data Analytics</h3>
+            <p>Exploratory analysis, finding patterns, building summaries, and turning raw data into decisions.</p>
+          </article>
+          <article class="mastery-panel reveal-panel">
+            <h3>Visualization</h3>
+            <p>Creating readable charts and dashboards that explain trends, comparisons, and progress clearly.</p>
+          </article>
+          <article class="mastery-panel reveal-panel">
+            <h3>ML and AI Learning</h3>
+            <p>Growing toward supervised learning, model evaluation, deep learning basics, and real applied AI projects.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section roadmap-band">
+        <div class="roadmap">
+          <div>
+            <p class="eyebrow">Next Build Targets</p>
+            <h2>Project roadmap.</h2>
+          </div>
+          <ol>
+            <li>Python data analysis dashboard using a real dataset.</li>
+            <li>Machine learning model with training, evaluation, and documentation.</li>
+            <li>Computer vision or NLP mini project hosted on GitHub.</li>
+            <li>Clean resume, GitHub profile, and LinkedIn proof of work.</li>
+          </ol>
+          <div class="roadmap-actions">
+            <a class="button ghost" href="pages/progress.html">Open full progress page</a>
+            <a class="button ghost" href="pages/certificates.html">Open certificates page</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-band">
+        <div class="contact-panel">
+          <p class="eyebrow">Contact</p>
+          <h2>Ready for the next challenge.</h2>
+          <p>
+            Connect with me across my learning and coding profiles.
+          </p>
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/manish-jangid-791593316/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/ManishSharma45512" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://leetcode.com/u/ManishJangid01/" target="_blank" rel="noreferrer">LeetCode</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Manish | Spartan AI Portfolio</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

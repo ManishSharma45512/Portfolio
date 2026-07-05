@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#07080d">
+    <title>Progress | Manish Spartan AI Portfolio</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <canvas id="matrix-field" aria-hidden="true"></canvas>
+    <header class="site-header">
+      <a class="brand" href="../index.html#top"><span class="brand-mark">M</span><span>Manish</span></a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="../index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="certificates.html">Certificates</a>
+        <a href="https://leetcode.com/u/ManishJangid01/" target="_blank" rel="noreferrer">LeetCode</a>
+      </nav>
+    </header>
+    <main>
+      <section class="page-hero compact">
+        <div class="page-hero-inner">
+          <p class="kicker">Progress Deck</p>
+          <h1>Growth Graph</h1>
+          <p class="hero-statement">Current progress signals across coding, analytics, visualization, ML, and AI readiness.</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="roadmap">
+          <div>
+            <p class="eyebrow">Learning Bars</p>
+            <h2>Training status.</h2>
+          </div>
+          <div class="bar-stack">
+            <div class="bar" style="--bar: 82%"><label>Python <strong>82%</strong></label><span></span></div>
+            <div class="bar" style="--bar: 76%"><label>Data Analytics <strong>76%</strong></label><span></span></div>
+            <div class="bar" style="--bar: 70%"><label>Visualization <strong>70%</strong></label><span></span></div>
+            <div class="bar" style="--bar: 55%"><label>Machine Learning <strong>55%</strong></label><span></span></div>
+            <div class="bar" style="--bar: 48%"><label>AI Engineering <strong>48%</strong></label><span></span></div>
+            <div class="bar" style="--bar: 62%"><label>Interview Readiness <strong>62%</strong></label><span></span></div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="metrics-layout">
+          <div class="section-heading">
+            <p class="eyebrow">Signal Graph</p>
+            <h2>Animated RGB progress.</h2>
+          </div>
+          <div class="graph-panel">
+            <div class="graph-top"><span>R: Discipline</span><span>G: Analytics</span><span>B: AI/ML</span><span>Gold: Readiness</span></div>
+            <canvas id="rgb-graph" width="920" height="420" aria-label="Animated RGB graph for learning progress"></canvas>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><p>Manish | Progress</p><a href="../index.html">Home</a></footer>
+    <script src="../script.js"></script>
+  </body>
+</html>
